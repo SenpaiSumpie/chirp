@@ -1,3 +1,8 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+body{
+    /* tailwindcss.com/docs/customizing-colors */
+    @apply bg-black text-slate-100;
+}
